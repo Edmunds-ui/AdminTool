@@ -99,43 +99,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="block_user.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="block_user.Designer.cs">
-      <DependentUpon>block_user.cs</DependentUpon>
-    </Compile>
-    <Compile Include="change_user.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="change_user.Designer.cs">
-      <DependentUpon>change_user.cs</DependentUpon>
-    </Compile>
-    <Compile Include="create_group.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="create_group.Designer.cs">
-      <DependentUpon>create_group.cs</DependentUpon>
-    </Compile>
-    <Compile Include="create_user.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="create_user.Designer.cs">
-      <DependentUpon>create_user.cs</DependentUpon>
-    </Compile>
     <Compile Include="Global.cs" />
-    <Compile Include="group_membership.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="group_membership.Designer.cs">
-      <DependentUpon>group_membership.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Logi.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Logi.Designer.cs">
-      <DependentUpon>Logi.cs</DependentUpon>
-    </Compile>
     <Compile Include="Main.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -144,24 +108,6 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="block_user.resx">
-      <DependentUpon>block_user.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="change_user.resx">
-      <DependentUpon>change_user.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="create_group.resx">
-      <DependentUpon>create_group.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="create_user.resx">
-      <DependentUpon>create_user.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="group_membership.resx">
-      <DependentUpon>group_membership.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Logi.resx">
-      <DependentUpon>Logi.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="Main.resx">
       <DependentUpon>Main.cs</DependentUpon>
     </EmbeddedResource>
